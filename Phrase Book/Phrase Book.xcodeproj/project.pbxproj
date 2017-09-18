@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C8244231CB9196600677085 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8244221CB9196600677085 /* AppDelegate.swift */; };
+		2C8244251CB9196600677085 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8244241CB9196600677085 /* ViewController.swift */; };
+		2C8244281CB9196600677085 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8244261CB9196600677085 /* Main.storyboard */; };
+		2C82442B1CB9196600677085 /* Phrase_Book.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C8244291CB9196600677085 /* Phrase_Book.xcdatamodeld */; };
+		2C82442D1CB9196600677085 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C82442C1CB9196600677085 /* Assets.xcassets */; };
+		2C8244301CB9196600677085 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C82442E1CB9196600677085 /* LaunchScreen.storyboard */; };
+		2C82443B1CB9196600677085 /* Phrase_BookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C82443A1CB9196600677085 /* Phrase_BookTests.swift */; };
+		2C8244461CB9196600677085 /* Phrase_BookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8244451CB9196600677085 /* Phrase_BookUITests.swift */; };
+		2C8244541CB919D300677085 /* TBVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8244531CB919D300677085 /* TBVC.swift */; };
+		2CB21F931CBA28CC005886AB /* Korean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB21F921CBA28CC005886AB /* Korean.swift */; };
+		2CB21F951CBA2A1F005886AB /* Russian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB21F941CBA2A1F005886AB /* Russian.swift */; };
+		2CB21F971CBA2A2D005886AB /* Spanish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB21F961CBA2A2D005886AB /* Spanish.swift */; };
+		2CB21F991CBA2A3F005886AB /* Chinese.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB21F981CBA2A3F005886AB /* Chinese.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C8244371CB9196600677085 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C8244171CB9196600677085 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C82441E1CB9196600677085;
+			remoteInfo = "Phrase Book";
+		};
+		2C8244421CB9196600677085 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C8244171CB9196600677085 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C82441E1CB9196600677085;
+			remoteInfo = "Phrase Book";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C82441F1CB9196600677085 /* Phrase Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Phrase Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C8244221CB9196600677085 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C8244241CB9196600677085 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C8244271CB9196600677085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C82442A1CB9196600677085 /* Phrase_Book.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Phrase_Book.xcdatamodel; sourceTree = "<group>"; };
+		2C82442C1CB9196600677085 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C82442F1CB9196600677085 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C8244311CB9196600677085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C8244361CB9196600677085 /* Phrase BookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Phrase BookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C82443A1CB9196600677085 /* Phrase_BookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phrase_BookTests.swift; sourceTree = "<group>"; };
+		2C82443C1CB9196600677085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C8244411CB9196600677085 /* Phrase BookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Phrase BookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C8244451CB9196600677085 /* Phrase_BookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phrase_BookUITests.swift; sourceTree = "<group>"; };
+		2C8244471CB9196600677085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C8244531CB919D300677085 /* TBVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TBVC.swift; sourceTree = "<group>"; };
+		2CB21F921CBA28CC005886AB /* Korean.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Korean.swift; sourceTree = "<group>"; };
+		2CB21F941CBA2A1F005886AB /* Russian.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Russian.swift; sourceTree = "<group>"; };
+		2CB21F961CBA2A2D005886AB /* Spanish.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spanish.swift; sourceTree = "<group>"; };
+		2CB21F981CBA2A3F005886AB /* Chinese.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chinese.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C82441C1CB9196600677085 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8244331CB9196600677085 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C82443E1CB9196600677085 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C8244161CB9196600677085 = {
+			isa = PBXGroup;
+			children = (
+				2C8244211CB9196600677085 /* Phrase Book */,
+				2C8244391CB9196600677085 /* Phrase BookTests */,
+				2C8244441CB9196600677085 /* Phrase BookUITests */,
+				2C8244201CB9196600677085 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C8244201CB9196600677085 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C82441F1CB9196600677085 /* Phrase Book.app */,
+				2C8244361CB9196600677085 /* Phrase BookTests.xctest */,
+				2C8244411CB9196600677085 /* Phrase BookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C8244211CB9196600677085 /* Phrase Book */ = {
+			isa = PBXGroup;
+			children = (
+				2C8244221CB9196600677085 /* AppDelegate.swift */,
+				2C8244241CB9196600677085 /* ViewController.swift */,
+				2C8244261CB9196600677085 /* Main.storyboard */,
+				2CB21F921CBA28CC005886AB /* Korean.swift */,
+				2CB21F941CBA2A1F005886AB /* Russian.swift */,
+				2CB21F961CBA2A2D005886AB /* Spanish.swift */,
+				2CB21F981CBA2A3F005886AB /* Chinese.swift */,
+				2C8244531CB919D300677085 /* TBVC.swift */,
+				2C82442C1CB9196600677085 /* Assets.xcassets */,
+				2C82442E1CB9196600677085 /* LaunchScreen.storyboard */,
+				2C8244311CB9196600677085 /* Info.plist */,
+				2C8244291CB9196600677085 /* Phrase_Book.xcdatamodeld */,
+			);
+			path = "Phrase Book";
+			sourceTree = "<group>";
+		};
+		2C8244391CB9196600677085 /* Phrase BookTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C82443A1CB9196600677085 /* Phrase_BookTests.swift */,
+				2C82443C1CB9196600677085 /* Info.plist */,
+			);
+			path = "Phrase BookTests";
+			sourceTree = "<group>";
+		};
+		2C8244441CB9196600677085 /* Phrase BookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C8244451CB9196600677085 /* Phrase_BookUITests.swift */,
+				2C8244471CB9196600677085 /* Info.plist */,
+			);
+			path = "Phrase BookUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C82441E1CB9196600677085 /* Phrase Book */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C82444A1CB9196600677085 /* Build configuration list for PBXNativeTarget "Phrase Book" */;
+			buildPhases = (
+				2C82441B1CB9196600677085 /* Sources */,
+				2C82441C1CB9196600677085 /* Frameworks */,
+				2C82441D1CB9196600677085 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Phrase Book";
+			productName = "Phrase Book";
+			productReference = 2C82441F1CB9196600677085 /* Phrase Book.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C8244351CB9196600677085 /* Phrase BookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C82444D1CB9196600677085 /* Build configuration list for PBXNativeTarget "Phrase BookTests" */;
+			buildPhases = (
+				2C8244321CB9196600677085 /* Sources */,
+				2C8244331CB9196600677085 /* Frameworks */,
+				2C8244341CB9196600677085 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C8244381CB9196600677085 /* PBXTargetDependency */,
+			);
+			name = "Phrase BookTests";
+			productName = "Phrase BookTests";
+			productReference = 2C8244361CB9196600677085 /* Phrase BookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C8244401CB9196600677085 /* Phrase BookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C8244501CB9196600677085 /* Build configuration list for PBXNativeTarget "Phrase BookUITests" */;
+			buildPhases = (
+				2C82443D1CB9196600677085 /* Sources */,
+				2C82443E1CB9196600677085 /* Frameworks */,
+				2C82443F1CB9196600677085 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C8244431CB9196600677085 /* PBXTargetDependency */,
+			);
+			name = "Phrase BookUITests";
+			productName = "Phrase BookUITests";
+			productReference = 2C8244411CB9196600677085 /* Phrase BookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C8244171CB9196600677085 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Dr.Drake Ramoray";
+				TargetAttributes = {
+					2C82441E1CB9196600677085 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = VWRRKNB5BW;
+						LastSwiftMigration = 0830;
+					};
+					2C8244351CB9196600677085 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = VWRRKNB5BW;
+						LastSwiftMigration = 0830;
+						TestTargetID = 2C82441E1CB9196600677085;
+					};
+					2C8244401CB9196600677085 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = VWRRKNB5BW;
+						LastSwiftMigration = 0830;
+						TestTargetID = 2C82441E1CB9196600677085;
+					};
+				};
+			};
+			buildConfigurationList = 2C82441A1CB9196600677085 /* Build configuration list for PBXProject "Phrase Book" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C8244161CB9196600677085;
+			productRefGroup = 2C8244201CB9196600677085 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C82441E1CB9196600677085 /* Phrase Book */,
+				2C8244351CB9196600677085 /* Phrase BookTests */,
+				2C8244401CB9196600677085 /* Phrase BookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C82441D1CB9196600677085 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8244301CB9196600677085 /* LaunchScreen.storyboard in Resources */,
+				2C82442D1CB9196600677085 /* Assets.xcassets in Resources */,
+				2C8244281CB9196600677085 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8244341CB9196600677085 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C82443F1CB9196600677085 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C82441B1CB9196600677085 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8244541CB919D300677085 /* TBVC.swift in Sources */,
+				2C8244251CB9196600677085 /* ViewController.swift in Sources */,
+				2CB21F991CBA2A3F005886AB /* Chinese.swift in Sources */,
+				2C82442B1CB9196600677085 /* Phrase_Book.xcdatamodeld in Sources */,
+				2CB21F931CBA28CC005886AB /* Korean.swift in Sources */,
+				2CB21F971CBA2A2D005886AB /* Spanish.swift in Sources */,
+				2CB21F951CBA2A1F005886AB /* Russian.swift in Sources */,
+				2C8244231CB9196600677085 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8244321CB9196600677085 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C82443B1CB9196600677085 /* Phrase_BookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C82443D1CB9196600677085 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8244461CB9196600677085 /* Phrase_BookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C8244381CB9196600677085 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C82441E1CB9196600677085 /* Phrase Book */;
+			targetProxy = 2C8244371CB9196600677085 /* PBXContainerItemProxy */;
+		};
+		2C8244431CB9196600677085 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C82441E1CB9196600677085 /* Phrase Book */;
+			targetProxy = 2C8244421CB9196600677085 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C8244261CB9196600677085 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C8244271CB9196600677085 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C82442E1CB9196600677085 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C82442F1CB9196600677085 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C8244481CB9196600677085 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C8244491CB9196600677085 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C82444B1CB9196600677085 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Phrase Book/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UOS.Phrase-Book";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2C82444C1CB9196600677085 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Phrase Book/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UOS.Phrase-Book";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2C82444E1CB9196600677085 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Phrase BookTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UOS.Phrase-BookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Phrase Book.app/Phrase Book";
+			};
+			name = Debug;
+		};
+		2C82444F1CB9196600677085 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Phrase BookTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UOS.Phrase-BookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Phrase Book.app/Phrase Book";
+			};
+			name = Release;
+		};
+		2C8244511CB9196600677085 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Phrase BookUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UOS.Phrase-BookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Phrase Book";
+			};
+			name = Debug;
+		};
+		2C8244521CB9196600677085 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Phrase BookUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "UOS.Phrase-BookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Phrase Book";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C82441A1CB9196600677085 /* Build configuration list for PBXProject "Phrase Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C8244481CB9196600677085 /* Debug */,
+				2C8244491CB9196600677085 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C82444A1CB9196600677085 /* Build configuration list for PBXNativeTarget "Phrase Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C82444B1CB9196600677085 /* Debug */,
+				2C82444C1CB9196600677085 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C82444D1CB9196600677085 /* Build configuration list for PBXNativeTarget "Phrase BookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C82444E1CB9196600677085 /* Debug */,
+				2C82444F1CB9196600677085 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C8244501CB9196600677085 /* Build configuration list for PBXNativeTarget "Phrase BookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C8244511CB9196600677085 /* Debug */,
+				2C8244521CB9196600677085 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2C8244291CB9196600677085 /* Phrase_Book.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2C82442A1CB9196600677085 /* Phrase_Book.xcdatamodel */,
+			);
+			currentVersion = 2C82442A1CB9196600677085 /* Phrase_Book.xcdatamodel */;
+			path = Phrase_Book.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2C8244171CB9196600677085 /* Project object */;
+}
